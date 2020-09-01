@@ -7,7 +7,7 @@ export const saludar = ( nombre ) => {
     console.log( 'Creando etiqueta H1' );
     
     const h1 = document.createElement('h1');
-    h1.innerText = `Hola, ${ nombre }, que tal como estas?`;
+    h1.innerText = `Hola, ${ nombre }, Esta es mi primer pagina en NODE con webpack!!`;
     
     document.body.append(h1);
     
