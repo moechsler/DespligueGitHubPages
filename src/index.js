@@ -3,7 +3,7 @@ import { saludar } from './js/componentes.js';  //importar funcion de otro js pa
 
 import './styles.css'
 
-const nombre = 'Marco';
+const nombre = 'Visitante';
 
 saludar ( nombre );
 
